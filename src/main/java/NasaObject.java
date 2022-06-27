@@ -15,8 +15,8 @@ public class NasaObject {
             @JsonProperty("date") String date,
             @JsonProperty("explanation") String explanation,
             @JsonProperty("hdurl") String hdurl,
-            @JsonProperty("mediaType") String mediaType,
-            @JsonProperty("serviceVersion") String serviceVersion,
+            @JsonProperty("media_type") String mediaType,
+            @JsonProperty("service_version") String serviceVersion,
             @JsonProperty("title") String title,
             @JsonProperty("url") String url) {
         this.copyright = copyright;
@@ -67,8 +67,8 @@ public class NasaObject {
                 "\n copyright: " + copyright +
                 "\n explanation: " + explanation +
                 "\n hdurl: " + hdurl +
-                "\n mediaType: " + mediaType +
-                "\n serviceVersion: " + serviceVersion +
+                "\n media_type: " + mediaType +
+                "\n service_version: " + serviceVersion +
                 "\n title: " + title +
                 "\n url: " + url;
     }
